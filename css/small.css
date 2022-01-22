@@ -1,0 +1,72 @@
+* { -moz-box-sizing: border-box;-webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*TEMPLATE PAGE*/
+body{
+    background-image: url('/phpmotors/images/site/small_check.jpg');
+}
+
+section{
+    padding:1em;
+    background-color: white;
+    border-style:solid;
+    border-color: #4c96d7;
+    font-family: 'VT323', monospace;
+}
+
+header a{
+    float:right;
+    text-decoration: none;
+    color:#3a3a3a;
+}
+
+nav{
+    background-color: #3a3a3a;
+    color:#ffffff;
+    padding:.5em 0;
+    font-family: 'VT323', monospace;
+    
+}
+
+nav li{
+    display:inline;
+}
+
+nav a{
+    text-decoration: none;
+    color:#ffffff;
+    padding:1em;
+}
+
+nav a:hover{
+    background-color: #4c96d7;
+    color:#3a3a3a;
+}
+
+main{
+    padding-bottom:.5em;
+    border-color:#3a3a3a;
+    border-bottom:solid;
+}
+
+footer p{
+    text-align: center;
+}
+
+/*HOME PAGE*/
+.description{
+    color:#a6cbeb;
+}
+
+.description img{
+    width:100%;
+    position:relative;
+}
+
+button{
+    padding:.5em 1em;
+    background-color: #4c96d7;
+    color:#3a3a3a;
+    font-family: 'VT323', monospace;
+    font-size:large;
+}
+
